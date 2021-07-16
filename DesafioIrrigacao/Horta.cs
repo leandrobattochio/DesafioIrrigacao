@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace DesafioIrrigacao
 {
     public class Horta
     {
-        public Tamanho Tamanho { get; set; }
+        public Tamanho Tamanho { get; private set; }
 
         public Horta(Tamanho tamanho)
         {

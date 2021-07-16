@@ -52,6 +52,9 @@
                     break;
             }
 
+            if (direcao.X == 0 && direcao.Y == 0)
+                return "";
+
             Posicao.AtualizarPosicao(direcao);
 
             return "M";
